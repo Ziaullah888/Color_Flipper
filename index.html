@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="particles"></div>
+    <main class="main-container">
+        <div class="color-display">
+            <div class="color-preview"></div>
+            <h1 id="h1">Color Flipper</h1>
+            <p id="quote">Current Color: <span id="color-value">#FFFFFF</span></p>
+        </div>
+        <div class="controls">
+            <button id="flipper" class="flip-btn">
+                <i class="fas fa-sync-alt"></i>
+                Generate New Color
+            </button>
+            <div class="color-history">
+                <h3>Recent Colors</h3>
+                <div class="history-container"></div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
